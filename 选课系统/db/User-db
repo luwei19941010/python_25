@@ -1,2 +1,6 @@
 {'username':'luwei','password':'123','role':'M'}
 {'username':'yaoting','password':'123','role':'S'}
+{'password': 'a', 'username': 'a', 'role': 'S'}
+{'password': 'b', 'username': 'b', 'role': 'S'}
+{'password': '123', 'role': 'S', 'username': 'yt'}
+{'username': 'lw', 'role': 'S', 'password': '123'}

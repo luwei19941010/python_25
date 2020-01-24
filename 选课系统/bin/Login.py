@@ -18,7 +18,7 @@ def Login():
         Role = None
         with open(User_path,mode='r',encoding='utf-8') as f:
             for i in f:
-                User_list.append(eval(i.strip('\n')))
+                User_list.append(eval(i.strip()))
             for i in User_list:
                 if username==i['username'] and password==i['password']:
                     Role=i['role']
@@ -30,7 +30,7 @@ def Login():
                        Manger.Start()
                 elif Role=='S':
                     if __name__ == '__main__':
-                       Student.Start()
+                       Student.Start(username)
             else:
                 print('login error')
 
